@@ -1,0 +1,94 @@
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #f5f9fc;
+    
+}
+
+.left{
+    width: 35%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    width: 35%;
+    margin-top: 80px;
+
+}
+.profileIm{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.imResult{
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+/* Styles pour le formulaire */
+.prompt{
+    margin-top: 10px;
+  }
+  
+  /* Style pour le champ de texte */
+  .inputprompt {
+    width: 262px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #6366f1;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 3px;
+  }
+  
+  /* Style pour le bouton */
+  .promptbtn, .btnadd, .btnsearch {
+    padding: 10px 20px;
+    background-color: #6366f1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .btnsearch, .btnadd{
+    width: 198px;
+  }
+  .btnadd{
+    margin-right: 2px;
+  }
+  .lesbt{
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .promptbtn:hover {
+    background-color: #0056b3;
+  }
+  .btnadd{
+    display: block;
+  }
+  .btnsearch{
+    display: block;
+    margin-top: 10px;
+  }
+  .btnadd:hover {
+    background-color: #0056b3;
+  }
+  .btnsearch:hover {
+    background-color: #0056b3;
+  }
+  .searchres{
+    background-color: #443C6F;
+    color: antiquewhite;
+  }

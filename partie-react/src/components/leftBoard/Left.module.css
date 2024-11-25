@@ -1,0 +1,50 @@
+.main{
+    /*background-color: #1D24CA;*/
+    background: #6366f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    min-width: 140px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.profile{
+    margin: 0;
+    border-bottom: solid #8b8df7;
+    display: block;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+}
+.h1Inpaint{
+    margin: 0;
+    border-bottom: solid #8b8df7;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+
+}
+.h1Favoris{
+    margin: 0;
+    border-bottom: solid #8b8df7;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+
+}
+.h1Logout{
+    margin: 0;
+    border-top: solid #8b8df7;
+    text-align: center;
+    height: 50px;
+    cursor: pointer;
+}
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Muli", sans-serif;
+    padding-top: 20px;
+}
